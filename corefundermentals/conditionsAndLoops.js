@@ -2,20 +2,19 @@
 const flag = true;
 
 if (!flag){
-    console.log("condition satisfied");
+    console.log("condition satisfied" + "\n");
 }
 else{
-    console.log("condition not satisfied");
+    console.log("condition not satisfied" + "\n");
 }
-console.log()
 
 // Executes as long as condition remains true
 let i = 0;
-while (i<10){
+while (i < 10){
     i++;
     console.log(i);
 }
-console.log()
+console.log();
 
 // Program must be executed at least once, then the condition is checked
 let x = 0;
@@ -24,8 +23,7 @@ do{
 }
 while(x>10);
     console.log(x);
-
-console.log()
+console.log();
 
 // Used when one knows how many times a loop will be run
 for (let y = 0; y <= 10; y++){

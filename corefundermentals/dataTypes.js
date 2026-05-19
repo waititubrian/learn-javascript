@@ -3,32 +3,28 @@ console.log("Hello World!");
 // ES1 - ES5 we declare variables using (var)
 var a = 4;
 // ES6 - .... these ways for declaring variables were introduced (let, const)
-var a = 4;
+var a = 5;
 console.log(a);
 console.log(typeof(a)+ "\n");
 
 let b = 234.6
 console.log(b);
-console.log(typeof(b));
-console.log();
+console.log(typeof(b) + "\n");
 
 var c = "Brian Waititu";
 console.log(c)
-console.log(typeof(c));
-console.log();
+console.log(typeof(c)+ "\n");
 
 let required =  true;
 console.log(required);
 console.log(typeof(required));
-console.log(!required)
-console.log();
+console.log(!required + "\n")
 
 // null and undefined
 
 // We cannot redeclare variable with 'let' keyword but possible with 'var' (The first declared varible has to be 'var' and the rediclared variable also 'var')
 var c = a+b;
-console.log(c);
-console.log()
+console.log(c + "\n");
 
 // We cannot reassign variable with 'var' & 'const' keyword but possible with 'let' (The first declared varible has to be 'let' and the reassinged variable not set to any Keyword)
 // c = a+b;
@@ -53,6 +49,3 @@ console.log()
      - Can lead to bugs due to hoisting and scope leakage.
      - Only use when maintaining legacy (old) codebases.
 */
-
-
-

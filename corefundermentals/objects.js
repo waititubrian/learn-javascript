@@ -5,7 +5,7 @@ let person = {
     lastName: "Waititu",
     age: 24,
     fullName: function(){
-        console.log(this.firstName + this.lastName);
+        console.log(this.firstName + " " + this.lastName);
     }
 }
 

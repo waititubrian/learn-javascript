@@ -11,7 +11,7 @@ let sum = add(2,3);
 console.log(sum);
 // console.log(add(2,3));
 
-// Anonymous functions -> don't have a name ----Function taht can be stored as a variable or pass as a value
+// Anonymous functions -> don't have a name ---- Function that can be stored as a variable or pass as a value
 let sum2 = function(c,d){
     return c+d;
 }

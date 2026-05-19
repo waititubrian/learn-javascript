@@ -40,7 +40,7 @@ var evenScores = [];
 for (let i = 0; i<scores.length; i++){
     if (scores[i] % 2 == 0){
         evenScores.push(scores[i]);
-        // evenScores.push(scores[i] * 3);
+        evenScores.push(scores[i] * 3);
     }
 }
 console.log(evenScores);
@@ -58,7 +58,7 @@ console.log()
 
 let totalMappedArray =mappedArray.reduce((sum, score) => sum + score,0);  // Reduce Array Function is used here
 console.log(totalMappedArray);
-console.log("Below is the simplified code:")
+console.log("Below is the simplified code:" + "\n")
 
 // Shorter way of writing the above
 let scores1 = [12,13,19,16,14];
